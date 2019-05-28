@@ -1,4 +1,5 @@
 require './bubble_sort.rb'
 require "benchmark/ips" 
 
-print bubble_sort([3,2,1,5,4])
+p bubble_sort([4,3,78,2,0,2]).inspect
+p bubble_sort(["hi","hello","hey"])
