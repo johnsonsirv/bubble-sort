@@ -9,7 +9,6 @@ This project was completed in line with standards provided by [Microverse](https
 
 ![Demo](https://github.com/johnsonsirv/bubble-sort/blob/dev/bubble-sort-example.gif)
 
-
 ## Technologies
 
 - Ruby
