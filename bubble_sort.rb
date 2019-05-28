@@ -15,7 +15,6 @@ def bubble_sort(arr)
 end
 
 #bubble_sort by
-
 def bubble_sort_by(arr)
     upper_bound = arr.length-1
     upper_bound.downto(0) do |count|
