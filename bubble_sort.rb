@@ -21,8 +21,8 @@ def bubble_sort_by(arr)
     upper_bound.downto(0) do |count|
         swapped = false
         (0...count).each do |indx|
-            if arr[indx] > arr[indx+1]
-                arr[indx], arr[indx+1] = arr[indx+1], arr[indx]
+             if yield(arr[indx], arr[indx+1]) > 0
+                 arr[indx], arr[indx+1] = arr[indx+1], arr[indx]
                 swapped = true
             end
         end
