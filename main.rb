@@ -1,3 +1,3 @@
 require './bubble_sort.rb'
 
-print bubble_sort([1,2,3])
+print bubble_sort([3,2,1,5,4])
