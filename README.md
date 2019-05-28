@@ -5,7 +5,7 @@ This continues until the array is eventually sorted.
 
 #### See a simple demo below
 
-(https://github.com/johnsonsirv/bubble-sort/blob/dev/bubble-sort-example.gif)
+[](https://github.com/johnsonsirv/bubble-sort/blob/dev/bubble-sort-example.gif)
 
 This project was completed in line with standards provided by [Microverse](https://www.microverse.org/ "The Global School for Remote Software Developers!").
 
