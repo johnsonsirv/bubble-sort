@@ -3,11 +3,12 @@ One of the simpler (but more processor-intensive) ways of sorting a group of ite
 where each element is compared to the one next to it and they are swapped if the one on the left is larger than the one on the right. 
 This continues until the array is eventually sorted. 
 
+This project was completed in line with standards provided by [Microverse](https://www.microverse.org/ "The Global School for Remote Software Developers!").
+
 #### See a simple demo below
 
-[](https://github.com/johnsonsirv/bubble-sort/blob/dev/bubble-sort-example.gif)
+![Demo](https://github.com/johnsonsirv/bubble-sort/blob/dev/bubble-sort-example.gif)
 
-This project was completed in line with standards provided by [Microverse](https://www.microverse.org/ "The Global School for Remote Software Developers!").
 
 ## Technologies
 
@@ -26,10 +27,6 @@ $ git clone https://github.com/johnsonsirv/bubble-sort
 ```sh
 $ cd bubble-sort
 ```
-
-## Contributors
-
-[Victor Okeugo](https://github.com/johnsonsirv)
 
 ## Contributing
 
