@@ -1,4 +1,4 @@
-#bubble sort algorithm
+# bubble sort algorithm
 def bubble_sort(arr)
     upper_bound = arr.length-1
     upper_bound.downto(0) do |count|
@@ -14,14 +14,14 @@ def bubble_sort(arr)
     arr
 end
 
-#bubble_sort by
+# bubble_sort by
 def bubble_sort_by(arr)
     upper_bound = arr.length-1
     upper_bound.downto(0) do |count|
         swapped = false
         (0...count).each do |indx|
-             if yield(arr[indx], arr[indx+1]) > 0
-                 arr[indx], arr[indx+1] = arr[indx+1], arr[indx]
+            if yield(arr[indx], arr[indx+1]) > 0
+                arr[indx], arr[indx+1] = arr[indx+1], arr[indx]
                 swapped = true
             end
         end
