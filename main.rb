@@ -1,3 +1,4 @@
+# frozen_string_literal: true
 require './bubble_sort.rb'
 
 p bubble_sort([4, 3, 78, 2, 0, 2]).inspect
