@@ -1,4 +1,5 @@
 # frozen_string_literal: true
+
 # bubble sort algorithm
 def bubble_sort(arr)
   upper_bound = arr.length - 1
