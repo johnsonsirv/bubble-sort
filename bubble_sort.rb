@@ -5,7 +5,7 @@ def bubble_sort(arr)
     swapped = false
     (0...count).each do |indx|
       if arr[indx] > arr[indx + 1]
-        arr[indx], arr[indx + 1] = arr[indx+1], arr[indx]
+        arr[indx], arr[indx + 1] = arr[indx + 1], arr[indx]
         swapped = true
       end
     end
